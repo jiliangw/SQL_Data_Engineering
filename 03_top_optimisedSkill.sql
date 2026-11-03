@@ -17,8 +17,7 @@ where jpf.job_title_short = 'Data Engineer' and jpf.salary_year_avg is not null
 group by sd.skills
 having count (jpf.salary_year_avg) > 100
 order by optimised_score desc
-limit 20
-;
+limit 20;
 
 /*
 ┌────────────┬───────────────┬──────────────┬──────────────────┬─────────────────┐
